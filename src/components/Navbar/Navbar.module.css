@@ -1,0 +1,37 @@
+.Container_Nave {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 12vh;
+    background-color: black;
+}
+
+.Container_Nave a {
+    background-color: #808080;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.Container_Nave a:hover {
+    background-color: #A9A9A9;
+    transition: 0.5s;
+}
+
+.Container_Nave a:hover {
+    background-color: #d41;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.Container_Nave img {
+    position: absolute;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}
